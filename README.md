@@ -27,7 +27,7 @@ The RS485Expander consists of a PCB with 9 RS485 transceiver circuits. Each port
 ## Schematic & PCB
 
 - Schematic and PCB design files are available in the [`hardware`](./hardware) directory.
-- Supported design software: (e.g., KiCAD, Eagle, Altium) *(specify if known)*
+- Supported design software:  Altium
 
 ## Getting Started
 
@@ -44,7 +44,6 @@ The RS485Expander consists of a PCB with 9 RS485 transceiver circuits. Each port
 | 9    | Master device   |
 | GND  | Common ground   |
 
-*(Customize for your PCB if different)*
 
 ## Safety & Notes
 
@@ -52,9 +51,6 @@ The RS485Expander consists of a PCB with 9 RS485 transceiver circuits. Each port
 - **Grounding**: Ensure all devices share a common ground to avoid communication errors.
 - **Cable Length**: RS485 supports up to 1200 meters total cable length, but keep stubs as short as possible.
 
-## License
-
-This project is licensed under the MIT License. See [`LICENSE`](./LICENSE) for details.
 
 ## Contributing
 
